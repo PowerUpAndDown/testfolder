@@ -1,0 +1,34 @@
+/*Root kontrollerar väden som jag kan använda liks variable i figma*/
+html {
+    scroll-behavior: smooth;
+  }
+:root {
+    --color-purple: #6D035F; 
+    --color-background: #DFDFDF; 
+    --color-box: #FFFFFF; 
+    --color-text: #000000; 
+   
+    --font-heading: "Josefin Sans", sans-serif;
+    --font-body: "Josefin Sans", sans-serif;
+
+    --max-widht: 1420;
+    --spaceing: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+/* header och menu */
+
+/* typography */
+h1 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.15;
+
+}
+section {
+    padding: 24px 24px 24px 24px;
+}
